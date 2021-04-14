@@ -215,6 +215,9 @@ adb install 后面可以跟一些可选参数来控制安装 APK 的行为，可
      adb shell dumpsys gfxinfo packageName
    
 
-###三星手机高刷新率：
-adb shell settings put system peak_ refresh_ rate96.0
-adb shell settings put system min_ refresh_ rate96.0
+三星手机高刷新率：
+
+      adb shell settings put system peak_ refresh_ rate96.0
+
+      adb shell settings put system min_ refresh_ rate96.0
+
